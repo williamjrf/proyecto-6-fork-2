@@ -1,104 +1,108 @@
-
 /* Estilos para el cuerpo y el footer */
 body {
-  padding-top: 80px;
-  background-image: url('../img/que-son-paradigmas-programacion.jpg'); 
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-/* Estilos para el nav */
-.navbar-toggler-icon {
-  color: white; /* Cambiar color del ícono a blanco */
-}
-
-
-/* Estilos para el aside */
-aside {
-  background-color: #e4eaef;
-  padding: 20px;
-}
-
-aside h2 {
-  color: #007bff; /* Cambia el color del título */
-}
-
-aside p {
-  font-size: 14px; 
-}
-
-aside i{
-  color: rgb(218, 23, 23);
+    padding-top: 80px;
+    background-image: url('../img/que-son-paradigmas-programacion.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+    
+  /* Estilos para el aside */
+  aside {
+    background-color: #172a3a;
+    padding: 20px;
+    color: white;
+  }
   
-}
+  aside h2 {
+    color: #007bff; 
+  }
+  
+  aside p {
+    font-size: 14px; 
+  }
+  
+  aside i{
+    color: rgb(218, 23, 23);
+    
+  }
+  
+  /* Estilos para la sección de educación y experiencia laboral */
+  #education, #experience {
+    margin-bottom: 40px;
+  }
+  
+  .education-item, .experience-item {
+    margin-bottom: 20px;
+  }
+ 
+  #info-personal {
+    background-color: #333;
+    color: white;
+  }
+  
+  .education-item h4, .experience-item h4 {
+    color: #007bff; 
+  }
+  
+  .education-item p, .experience-item p {
+    font-size: 14px;
+  }
+  
+  /* Estilos para la sección de conocimientos */
+  #info-personal h3 {
+    margin-bottom: 20px;
+  }
+  
+  .stars {
+    margin-bottom: 20px;
+  }
+  
+  .stars i {
+    color: #f78a0d;
+  }
+  
+  /* Estilos para el portafolio */
+  .card-title {
+    color: #007bff; 
+  }
+  
+  .card-text {
+    font-size: 14px; 
+  }
 
-/* Estilos para la sección de educación y experiencia laboral */
-#education, #experience {
-  margin-bottom: 40px;
-}
+  .card {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Estilos para el footer */
+  .footer h5 {
+    margin-bottom: 20px;
+  }
+  
+  .footer i {
+    color: rgb(184, 36, 36) ;
+  }
+  footer.footer {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  #folio {
+    color: rgba(243, 238, 235, 0.977);
+    text-shadow: 4px 4px 4px rgba(246, 241, 241, 0.668);
+  }
 
-.education-item, .experience-item {
-  margin-bottom: 20px;
-}
-
-.education-item h4, .experience-item h4 {
-  color: #007bff; 
-}
-
-.education-item p, .experience-item p {
-  font-size: 14px;
-}
-
-#info-personal {
-  background-color: rgb(238, 233, 228);
-}
-
-/* Estilos para la sección de conocimientos */
-#info-personal h3 {
-  margin-bottom: 20px;
-}
-
-.stars {
-  margin-bottom: 20px;
-}
-
-.stars i {
-  color: #f78a0d;
-}
-
-/* Estilos para el portafolio */
-.card-title {
-  color: #007bff; 
-}
-
-.card-text {
-  font-size: 14px; 
-}
-
-/* Estilos para el footer */
-.footer h5 {
-  margin-bottom: 20px;
-}
-
-.footer i {
-  color: rgb(184, 36, 36) ;
-}
-footer.footer {
-  background-color: #f8f9fa;
-  color: #333;
-}
-
-h1, h2, h3, h4, h5, nav {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-
-p {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
-#folio {
-  color: rgba(243, 238, 235, 0.977);
-  text-shadow: 4px 4px 4px rgba(246, 241, 241, 0.668);
-}
+  hr {
+    background-color: white;
+  }
